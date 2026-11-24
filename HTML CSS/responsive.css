@@ -1,0 +1,39 @@
+.card{
+    width: 300px;
+    padding: 25px;
+    margin: 50px auto;
+    border: 1px solid rgb(27, 23, 23);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(84, 84, 209);
+    border-radius: 20px;
+}
+
+@media (max-width : 576px){
+    .card{
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 20px;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="flex.css"> -->
+    <style>
+        .icon {
+            height: 80px;
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .icon:hover {
+            background-color: bisque;
+            transform: scale(1.05);
+
+        }
+
+        .grid {
+            display: grid;
+            gap: 20px;
+            max-width: 500px;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="box">One</div>
+    <div class="box">Two</div>
+    <div class="box">Three</div>
+    <div class="box">Four</div>
+    <div class="box">Five</div> -->
+
+    <div class="grid">
+        <div class="icon">One</div>
+        <div class="icon">Two</div>
+        <div class="icon">Three</div>
+        <div class="icon">Four</div>
+        <div class="icon">Five</div>
+        <div class="icon">One</div>
+        <div class="icon">Two</div>
+        <div class="icon">Three</div>
+        <div class="icon">Four</div>
+        <div class="icon">Five</div>
+        <div class="icon">One</div>
+        <div class="icon">Two</div>
+        <div class="icon">Three</div>
+        <div class="icon">Four</div>
+        <div class="icon">Five</div>
+    </div>
+</body>
+
+</html>

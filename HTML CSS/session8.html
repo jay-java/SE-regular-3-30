@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .social-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .icon {
+            height: 80px;
+            background: #333;
+            color: white;
+            display: flex;
+            /* Flexbox inside Grid */
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .icon:hover {
+            background: #0d6efd;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="social-grid">
+        <div class="icon">FB</div>
+        <div class="icon">IG</div>
+        <div class="icon">TW</div>
+        <div class="icon">YT</div>
+        <div class="icon">LN</div>
+        <div class="icon">GH</div>
+    </div>
+
+</body>
+
+</html>
